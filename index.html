@@ -11,8 +11,15 @@
 
 <body class="p-0 m-0">
     <header class="overflow-x-hidden">
-        <nav class="bg-white w-full h-14">
-            <div class="flex justify-end  mr-24 ">
+        <div class="flex md:hidden w-full h-12 bg-red-700 space-x-6">
+            <img class="w-4 h-4 mt-4" src="./images/menu-icon.png" alt="">
+            <h5 class="text-white mt-4">Menu</h5>
+            <img class="w-4 h-4 mt-4 ml-8"
+                src="https://www.materna.com/SiteGlobals/Frontend/Images/icons/loupe-w.svg?__blob=normal&v=18" alt="">
+            <h6 class="text-white mt-4">Search</h6>
+        </div>
+        <nav class=" md:w-full md:h-14 flex-1">
+            <div class="lg:flex hidden justify-end  mr-24 ">
                 <ul class="flex space-x-12 mt-4">
                     <li class="hover:text-red-400 hover:underline ">Newsroom</li>
                     <li class="hover:text-red-400 hover:underline">Contact</li>
@@ -32,34 +39,38 @@
     width: 100%;
     height: 80%;
   " class="bg-red-300 overflow-x-hidden">
-        <div class="">
-            <img class="absolute top-0 w-56 ml-12"
+        <div class="w-full h-4 mr-10">
+            <img class="w-56 h-32 mr-16 mt-4 md:hidden"
                 src="https://www.materna.com/SiteGlobals/Frontend/Images/logo-small.svg;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=16"
                 alt="">
         </div>
-        <nav class="ml-96 border-solid border-2 border-red-500 bg-clip-border w-3/6 h-12 bg-red-700 ">
-            <ul class="flex space-x-8 items-center">
+        <img class="sm:flex hidden md:absolute top-0 md:w-56 md:ml-12"
+            src="https://www.materna.com/SiteGlobals/Frontend/Images/logo-small.svg;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=16"
+            alt="">
+        </div>
+        <nav class="sm:flex hidden md:ml-96 border-solid border-2 border-red-500 bg-clip-border md:w-3/6 md:h-12 bg-red-700 ">
+            <ul class="lg:flex hidden space-x-8 items-center">
                 <li class="text-white">Portifolio</li>
                 <li class="text-white">Industries</li>
                 <li class="text-white">Customers</li>
                 <li class="text-white">About Us</li>
                 <li class="text-white">Events</li>
                 <li class="text-white">Careers</li>
-                <img class="bg-white w-9 h-9 "
-                    src="https://www.materna.com/SiteGlobals/Forms/_components/Buttons/Servicesuche_Submit.svg;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=image&v=2"
+                <img class=" w-4 h-4  "
+                    src="https://www.materna.com/SiteGlobals/Frontend/Images/icons/loupe-w.svg?__blob=normal&v=18"
                     alt="">
             </ul>
         </nav>
 
-        <div class="mt-80 flex space-x-20">
-            <div class="w-1/5 h-1/5 border-2 border-rose-500 ml-10 mb-20 ">
-                <p class="text-white text-5xl">WE ARE DIGITIZING YOUR WORLD</p>
-                <p class="text-white">As a key globally active IT service provider, we advise and assist you in all
+        <div class="mt-32 md:mt-80 flex md:space-x-20">
+            <div class="w-96 h-96 ml-4 items-center md:w-1/4 md:h-96 border-8 border-red-600 md:ml-10 md:mb-20 ">
+                <p class="text-white text-3xl ml-2 mt-10 md:ml-4 md:text-5xl md:mt-8">WE ARE DIGITIZING YOUR WORLD</p>
+                <p class="text-white ml-2 mt-10 md:ml-4 md:mt-8">As a key globally active IT service provider, we advise and assist you in all
                     aspects of digitization
                     and provide tailor-made technologies for agile, flexible and secure IT.</p>
             </div>
-            <div class="flex space-x-8 mb-10">
-                <div>
+            <div class="sm:flex hidden md:flex md:space-x-8 md:mb-10">
+                <div class=" ">
                     <img src="https://www.materna.com/DE/Home/_documents/Bilder/M-Startseite-Quadrat-Portfolio.jpg;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=8"
                         alt="">
                 </div>
@@ -73,24 +84,36 @@
                 </div>
             </div>
         </div>
+
+        <div class="md:hidden w-96 space-y-2 mt-8 ml-4">
+            <div class="border-solid border-2 h-16  border-red-700 bg-clip-border bg-red-700 text-white">
+                <p class="ml-8 mt-4">Portfolio</p>
+            </div>
+            <div class="border-solid border-2 h-16 border-red-700 bg-clip-border bg-red-700 text-white">
+                <p class="ml-8 mt-4">About us</p>
+            </div>
+            <div class="border-solid border-2 h-16 border-red-700 bg-clip-border bg-red-700 text-white">
+                <p class="ml-8 mt-4">Careers</p>
+            </div>
+        </div>
     </section>
 
     <section class="overflow-x-hidden mt-10">
-        <p class="text-center text-2xl">Learn more about our portfolio</p>
-        <div class="flex mt-10  ml-16 w-11/12 h-auto space-x-24">
-            <div class="w-60">
+        <p class="text-center md:text-2xl">Learn more about our portfolio</p>
+        <div class="flex md:mt-10  md:ml-16 md:w-11/12 md:h-auto space-x-24">
+            <div class="md:w-60">
                 <div class="bg-gray-400 border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img class="lg:h-48 md:h-36 w-full object-cover object-center"
                         src="https://www.materna.com/SharedDocs/Bilder/DE/610x343/AS-388785133-Home-Portfolio-Cloud.png;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=8"
                         alt="blog">
-                    <div class="p-6">
+                    <div class="md:p-6">
                         <h1 class="title-font text-lg font-medium text-gray-900 mb-3">We accompany your
                             Journey2Cloud</h1>
                         <p class="leading-relaxed mb-3">We analyze your application landscapes and transfer
                             them step by step into a sustainable model.</p>
                         <div class="flex items-center flex-wrap ">
                             <a class="text-white inline-flex items-center md:mb-2 lg:mb-0">More
-                                <img src="https://www.materna.com/SiteGlobals/Frontend/Images/icons/next-upright.svg;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=18"
+                                <img class="md:w-4 h-4" src="https://www.materna.com/SiteGlobals/Frontend/Images/icons/next-upright.svg;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=18"
                                     alt="">
                             </a>
                         </div>
@@ -168,12 +191,12 @@
                 <p>Enterprise Service Management is one of the cornerstones of any company's digitization strategy. In
                     the new ISG Provider Lens™ Report - Enterprise Service Management 2021 - Germany, Materna comes out
                     on top in three quadrants.</p>
-                    <div class="flex mt-16 ml-96">
-                        <p class="text-red-800 text-3xl">Read more</p>
-                <img src="https://www.materna.com/SiteGlobals/Frontend/Images/icons/submenu_small_closed.svg?__blob=normal&v=16"
-                    alt="">
-                    </div>
-                
+                <div class="flex mt-16 ml-96">
+                    <p class="text-red-800 text-3xl">Read more</p>
+                    <img src="https://www.materna.com/SiteGlobals/Frontend/Images/icons/submenu_small_closed.svg?__blob=normal&v=16"
+                        alt="">
+                </div>
+
             </div>
         </div>
 
@@ -186,37 +209,41 @@
                     alt="">
                 <div class="items-center mt-14 ml-10">
                     <h3 class="text-red-600 text-2xl">Dever international Airpot with automed baggage checki-n</h3>
-                    <p>Enterprise Service Management is one of the cornerstones of any company's digitization strategy. In
-                        the new ISG Provider Lens™ Report - Enterprise Service Management 2021 - Germany, Materna comes out
+                    <p>Enterprise Service Management is one of the cornerstones of any company's digitization strategy.
+                        In
+                        the new ISG Provider Lens™ Report - Enterprise Service Management 2021 - Germany, Materna comes
+                        out
                         on top in three quadrants.</p>
-                        <div class="flex mt-16 ml-20">
-                            <p class="text-red-800 text-3xl">More about the selft Bag Drop project</p>
-                    <img src="https://www.materna.com/SiteGlobals/Frontend/Images/icons/submenu_small_closed.svg?__blob=normal&v=16"
-                        alt="">
-                        </div>
-                    
+                    <div class="flex mt-16 ml-20">
+                        <p class="text-red-800 text-3xl">More about the selft Bag Drop project</p>
+                        <img src="https://www.materna.com/SiteGlobals/Frontend/Images/icons/submenu_small_closed.svg?__blob=normal&v=16"
+                            alt="">
+                    </div>
+
                 </div>
             </div>
 
-            
-
-            <div class="flex mt-20 ">
-                <img src="https://www.materna.com/SharedDocs/Bilder/DE/Referenzen/DsM/M-Flughafen-Denver-SBD.png;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=2"
+            <div class="flex mt-20 ml-16 space-x-4">
+                <img class="w-80 h-44"
+                    src="https://www.materna.com/SharedDocs/Bilder/DE/Referenzen/DsM/M-Flughafen-Denver-SBD.png;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=2"
                     alt="">
-                <img src="https://www.materna.com/SharedDocs/Bilder/DE/610x343/vw-financial-service.jpg;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=2"
+                <img class="w-80 h-44"
+                    src="https://www.materna.com/SharedDocs/Bilder/DE/610x343/vw-financial-service.jpg;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=2"
                     alt="">
-                <img src="https://www.materna.com/SharedDocs/Bilder/DE/610x343/AS-130417189_206837819.jpg;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=2"
+                <img class="w-80 h-44"
+                    src="https://www.materna.com/SharedDocs/Bilder/DE/610x343/AS-130417189_206837819.jpg;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=2"
                     alt="">
-                <img src="https://www.materna.com/SharedDocs/Bilder/DE/610x343/AS-225919671.jpg;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=2"
+                <img class="w-80 h-44"
+                    src="https://www.materna.com/SharedDocs/Bilder/DE/610x343/AS-225919671.jpg;jsessionid=3C298345E6911BBE3000260CB847BB4A.delivery2-master?__blob=normal&v=2"
                     alt="">
             </div>
         </div>
 
-        <div>
-            <p>print</p>
-            <img src="" alt="">
-            <p>recommend</p>
-            <img src="" alt="">
+        <div class="flex mt-10 space-x-4 ml-16">
+            <p class="text-red-500 hover:underline hover:text-black">print</p>
+            <img class="w-6 h-6 " src="./images/printer-icon.png" alt="">
+            <p class="text-red-500 hover:underline hover:text-black">recommend</p>
+            <img class="w-6 h-6" src="./images/share-icon.png" alt="">
         </div>
 
     </section>
